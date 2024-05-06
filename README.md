@@ -17,8 +17,8 @@ O numero da `CONTA` de cada custo e o nome deles você terá que alterar no cód
 
 ```python
 #exemplo : tabela.loc[tabela["CONTA"]=="numero do custo", "CEN. CUSTO"] = "nome do custo"
-           tabela.loc[tabela["CONTA"]=="02.01.000", "CEN. CUSTO"] = "RECURSOS HUMANOS"
-           tabela.loc[tabela["CONTA"]=="02.01.001", "CEN. CUSTO"] = "SALARIOS"
-           tabela.loc[tabela["CONTA"]=="02.01.002", "CEN. CUSTO"] = "GPS"
-           tabela.loc[tabela["CONTA"]=="02.01.003", "CEN. CUSTO"] = "FGTS"
+           tabela.loc[tabela["CONTA"]=="123456789", "CEN. CUSTO"] = "RECURSOS HUMANOS"
+           tabela.loc[tabela["CONTA"]=="987654321", "CEN. CUSTO"] = "SALARIOS"
+           tabela.loc[tabela["CONTA"]=="111111111", "CEN. CUSTO"] = "VR"
+           tabela.loc[tabela["CONTA"]=="000000000", "CEN. CUSTO"] = "FGTS"
 ```
