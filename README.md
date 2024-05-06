@@ -26,10 +26,10 @@ tabela.loc[tabela["CONTA"]=="111111111", "CEN. CUSTO"] = "VR"
 tabela.loc[tabela["CONTA"]=="000000000", "CEN. CUSTO"] = "FGTS"
 ```
 ## IDEIA
-- Após alterar o código e deixar de acordo com a sua empresa, é possivel fazer o arquivo `.exe` e assim sempre que alguem precisar usar, só deixar a planilha na mesma pasta do arquivo, no mesmo nome que você colocou no script e assim só executar ele.
-`pyinstaller --onefile` (no terminal do VSCode)
-- É possivel tambem criar uma pop screen que ai você selecione a planilha
-`pyinstaller --onefile -w` (no terminal do VSCode)
+- Após alterar o código e deixar de acordo com os da sua empresa, é possivel fazer o arquivo `.exe` e assim sempre que alguem precisar usar, é só deixar a planilha na mesma pasta do arquivo, no mesmo nome que você colocou no script e só executar ele.
+```pyinstaller --onefile``` (no terminal do VSCode)
+- É possivel tambem criar uma pop screen que invés de você ter que alterar o nome da planilha e o local dela, você o seleciona através da tela interativa que você criar.
+```pyinstaller --onefile -w``` (no terminal do VSCode)
 
 ## CREDITOS
 - @cosmosredshiftsete
