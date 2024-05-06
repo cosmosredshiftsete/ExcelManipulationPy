@@ -31,5 +31,5 @@ tabela.loc[tabela["CONTA"]=="000000000", "CEN. CUSTO"] = "FGTS"
 - É possivel tambem criar uma pop screen que invés de você ter que alterar o nome da planilha e o local dela, você o seleciona através da tela interativa que você criar.
 ```pyinstaller --onefile -w``` (no terminal do VSCode)
 
-## CREDITOS
+## CRÉDITOS
 - @cosmosredshiftsete
