@@ -13,7 +13,9 @@ Na tabela `CONTA` vem os gastos da empresa e na tabela `CEN. CUSTO` o script vai
 
 https://github.com/cosmosredshiftsete/ExcelManipulationPy/assets/161028555/6c620349-fd71-477b-abb2-ad86723f1f2a
 
-O numero da `CONTA` de cada custo e o nome deles você terá que alterar no código como aqui por exemplo:
+O numero da `CONTA` de cada custo e o nome deles você terá que alterar no código para o script consegui identificar na planilha e preencher.
+
+# EXEMPLO
 
 ```python
 #exemplo : tabela.loc[tabela["CONTA"]=="numero do custo", "CEN. CUSTO"] = "nome do custo"
