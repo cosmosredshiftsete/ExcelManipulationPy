@@ -17,8 +17,9 @@ O numero da `CONTA` de cada custo e o nome deles você terá que alterar no cód
 
 # EXEMPLO
 
+
+tabela.loc[tabela["`CONTA`"]=="numero do custo", "CEN. CUSTO"] = "`nome do custo`"
 ```python
-tabela.loc[tabela["CONTA"]=="numero do custo", "CEN. CUSTO"] = "nome do custo"
 tabela.loc[tabela["CONTA"]=="123456789", "CEN. CUSTO"] = "RECURSOS HUMANOS"
 tabela.loc[tabela["CONTA"]=="987654321", "CEN. CUSTO"] = "SALARIOS"
 tabela.loc[tabela["CONTA"]=="111111111", "CEN. CUSTO"] = "VR"
