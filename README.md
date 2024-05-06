@@ -1,4 +1,4 @@
-# ExcelManipulationPy
+# Excel Manipulation whith Python
 
 ## O QUE É?
 Essa é uma manipulação de planilha para automatizar o preenchimento dos custos de uma empresa para o setor de contabilidade.
