@@ -10,7 +10,9 @@ Na tabela `CONTA` vem os gastos da empresa e na tabela `CEN. CUSTO` o script vai
 ![Screenshot_2](https://github.com/cosmosredshiftsete/ExcelManipulationPy/assets/161028555/fc358cfa-8fe2-4639-ab44-95f10b9f6c2a)
 
 # PRÁTICA 
+
 https://github.com/cosmosredshiftsete/ExcelManipulationPy/assets/161028555/6c620349-fd71-477b-abb2-ad86723f1f2a
+
 O numero da `CONTA` de cada custo e o nome deles você terá que alterar no código como aqui por exemplo:
 
 ```python
