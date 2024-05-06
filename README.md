@@ -16,9 +16,9 @@ https://github.com/cosmosredshiftsete/ExcelManipulationPy/assets/161028555/6c620
 O numero da `CONTA` de cada custo e o nome deles você terá que alterar no código como aqui por exemplo:
 
 ```python
-tabela.loc[tabela["CONTA"]=="02.00.000", "CEN. CUSTO"] = "DESPESAS OPERACIONAIS - FIXA"
-tabela.loc[tabela["CONTA"]=="02.01.000", "CEN. CUSTO"] = "RECURSOS HUMANOS"
-tabela.loc[tabela["CONTA"]=="02.01.001", "CEN. CUSTO"] = "SALARIOS"
-tabela.loc[tabela["CONTA"]=="02.01.002", "CEN. CUSTO"] = "GPS"
-tabela.loc[tabela["CONTA"]=="02.01.003", "CEN. CUSTO"] = "FGTS"
+#exemplo : tabela.loc[tabela["CONTA"]=="numero do custo", "CEN. CUSTO"] = "nome do custo"
+           tabela.loc[tabela["CONTA"]=="02.01.000", "CEN. CUSTO"] = "RECURSOS HUMANOS"
+           tabela.loc[tabela["CONTA"]=="02.01.001", "CEN. CUSTO"] = "SALARIOS"
+           tabela.loc[tabela["CONTA"]=="02.01.002", "CEN. CUSTO"] = "GPS"
+           tabela.loc[tabela["CONTA"]=="02.01.003", "CEN. CUSTO"] = "FGTS"
 ```
