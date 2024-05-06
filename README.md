@@ -14,3 +14,6 @@ Na tabela `CONTA` vem os gastos da empresa e na tabela `CEN. CUSTO` o script vai
 
 https://github.com/cosmosredshiftsete/ExcelManipulationPy/assets/161028555/6c620349-fd71-477b-abb2-ad86723f1f2a
 
+```
+SADASDASD
+```
