@@ -2,6 +2,7 @@ import pandas as pd
 import openpyxl
 import os
 import tkinter as tk
+from tkinter import *
 from tkinter import filedialog
 from tkinter import messagebox
 
@@ -281,6 +282,7 @@ def atualizar_tabela():
 # Criar a janela principal
 root = tk.Tk()
 root.title("Python + Excel")
+root.geometry("400x300")
 
 
 
